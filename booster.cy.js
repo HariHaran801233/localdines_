@@ -8,7 +8,7 @@ context('TRAINER AND TRAINEE CONTEXUAL SESSIONS', () => {
     cy.viewport(1400, 800)
   })
   let story_session_pin;
-  //  directions  
+  //directions  
   Cypress._.times(3, (t) => {
     var session = t + 1;
     var story_index = t;
